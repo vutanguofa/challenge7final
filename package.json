@@ -1,22 +1,23 @@
 {
-  "name": "@paypalcorp/portfolio-generator",
+  "name": "@paypalcorp/challenge7final",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repo will generate a readme file. When the application is ran, the user will be prompted a series of questions to help build the readme file and include the details collected from the user. Additionally, eror checking is invoked to ensure the user enters in the required information before moving on to the next prompt.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vutanguofa/portfolio-generator.git"
+    "url": "git+https://github.com/vutanguofa/challenge7final.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vutanguofa/portfolio-generator/issues"
+    "url": "https://github.com/vutanguofa/challenge7final/issues"
   },
-  "homepage": "https://github.com/vutanguofa/portfolio-generator#readme",
+  "homepage": "https://github.com/vutanguofa/challenge7final#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
-  }
+  },
+  "devDependencies": {}
 }
