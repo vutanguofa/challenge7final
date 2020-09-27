@@ -4,6 +4,12 @@
 
 This repo will generate a readme file. When the application is ran, the user will be prompted a series of questions to help build the readme file and include the details collected from the user. Additionally, eror checking is invoked to ensure the user enters in the required information before moving on to the next prompt.
 
+## Table of Contents
+
+[Screenshot](#Screenshot)
+[Screen recording](#Screen-recording)
+[Link to deployed application](#Link-to-deployed-application)
+
 ## Screenshot
 
 ![challenge7final]()

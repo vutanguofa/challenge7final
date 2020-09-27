@@ -3,7 +3,7 @@ const fs = require('fs');
 // writing files
 const writeFile = fileContent => {
   return new Promise((resolve, reject) => {
-    fs.writeFile('./dist/readme.md', fileContent, err => {
+    fs.writeFile('./generated-files/readme.md', fileContent, err => {
       if (err) {
         reject(err);
         return;
@@ -11,7 +11,7 @@ const writeFile = fileContent => {
 
       resolve({
         ok: true,
-        message: 'File created!'
+        message: 'Your file is created!'
       });
     });
   });

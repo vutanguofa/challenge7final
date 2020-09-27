@@ -1,18 +1,18 @@
 const inquirer = require('inquirer');
 const generatePage = require('./src/page-template');
-const { writeFile } = require('./utils/generate-readme');
+const { writeFile, copyFile } = require('./utils/generate-readme');
 
 const promptUser = () => {
   return inquirer.prompt([
     {
       type: 'input',
       name: 'projectName',
-      message: 'What is the name of your project',
-      validate: projectNameInput => {
-        if (projectNameInput) {
+      message: 'Please enter your project name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your project name!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -20,12 +20,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'desc',
-      message: 'Please enter a description about your project (Required)',
-      validate: descInput => {
-        if (descInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a description!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -33,25 +33,25 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'tableContents',
-      message: 'Please enter table of contents for the readme file(Required)',
-      validate: tableContentsInput => {
-        if (tableContentsInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a table of contents!');
+          console.log('Please enter your name!');
           return false;
         }
       }
-    },
+    },    
     {
       type: 'input',
-      name: 'installation',
-      message: 'Please enter installation details (Required)',
-      validate: installationInput => {
-        if (installationInput) {
+      name: 'install',
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a description!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -59,12 +59,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'usage',
-      message: 'Please enter the usage details (Required)',
-      validate: usageInput => {
-        if (usageInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter usage!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -72,25 +72,25 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'license',
-      message: 'Please enter licensing details (Required)',
-      validate: licenseInput => {
-        if (licenseInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a license!');
+          console.log('Please enter your name!');
           return false;
         }
       }
     },
     {
       type: 'input',
-      name: 'contributing',
-      message: 'Please enter contribution details (Required)',
-      validate: contributingInput => {
-        if (contributingInput) {
+      name: 'contrib',
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a contributor!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -98,12 +98,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'tests',
-      message: 'Please enter testing details (Required)',
-      validate: testsInput => {
-        if (testsInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter tests!');
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -111,26 +111,30 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'questions',
-      message: 'Please enter some questions (Required)',
-      validate: questionsInput => {
-        if (questionsInput) {
+      message: 'What is your name? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
           return true;
         } else {
-          console.log('Please enter a question');
+          console.log('Please enter your name!');
           return false;
         }
       }
-    },
+    }
+
   ]);
 };
 
 promptUser()
+  .then(portfolioData => {
+    return generatePage(portfolioData);
+  })
   .then(pageHTML => {
     return writeFile(pageHTML);
   })
   .then(writeFileResponse => {
     console.log(writeFileResponse);
-    return generatePage();
+    return copyFile();
   })
   .catch(err => {
     console.log(err);
