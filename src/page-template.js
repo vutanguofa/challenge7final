@@ -60,7 +60,7 @@ module.exports = templateData => {
 
   ## Questions
   [Link to GitHub profile](https://github.com/${gitHub})<br />
-  [Email me](${email})
+  For additional questions, please email at: (${email})
 
   `;
 };
