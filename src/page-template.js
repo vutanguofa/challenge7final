@@ -13,11 +13,11 @@ module.exports = templateData => {
   ${desc}
 
   ## Table of Contents
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributing](#contributing)
-  [Tests](#tests)
+  [Installation](#installation)<br />
+  [Usage](#usage)<br />
+  [License](#license)<br />
+  [Contributing](#contributing)<br />
+  [Tests](#tests)<br />
   [Questions](#questions)
 
   ## Installation
@@ -33,7 +33,7 @@ module.exports = templateData => {
   ${tests}
 
   ## Questions
-  [Link to GitHub profile](https://github.com/${gitHub})
+  [Link to GitHub profile](https://github.com/${gitHub})<br />
   [Email me](${email})
 
   `;
