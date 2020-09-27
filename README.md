@@ -6,9 +6,9 @@ This repo will generate a readme file. When the application is ran, the user wil
 
 ## Table of Contents
 
-[Screenshot](#Screenshot)<br />
-[Screen recording](#Screen-recording)<br />
-[Link to deployed application](#Link-to-deployed-application)<br />
+[Screenshot](#screenshot)<br />
+[Screen recording](#screen-recording)<br />
+[Link to deployed application](#link-to-deployed-application)<br />
 
 ## Screenshot
 
@@ -21,3 +21,6 @@ This repo will generate a readme file. When the application is ran, the user wil
 ## Link to deployed application
 
 [Link to deployed application](https://vutanguofa.github.io/challenge7final/)
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
