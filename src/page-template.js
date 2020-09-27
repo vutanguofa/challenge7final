@@ -5,6 +5,9 @@ module.exports = templateData => {
 
   return `
   # ${projectName}
+  
+  ## License
+  ${license.join(', ')}
 
   ## Description
   ${desc}
@@ -22,9 +25,6 @@ module.exports = templateData => {
 
   ## Usage
   ${usage}
-
-  ## License
-  ${license.join(', ')}
 
   ## Contributing
   ${contrib}
