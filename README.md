@@ -6,9 +6,9 @@ This repo will generate a readme file. When the application is ran, the user wil
 
 ## Table of Contents
 
-*[Screenshot](#screenshot)<br />
-*[Screen recording](#screen-recording)<br />
-*[Link to deployed application](#link-to-deployed-application)<br />
+* [Screenshot](#screenshot)<br />
+* [Screen recording](#screen-recording)<br />
+* [Link to deployed application](#link-to-deployed-application)<br />
 
 ## Screenshot
 

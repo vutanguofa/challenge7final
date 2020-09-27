@@ -39,12 +39,12 @@ module.exports = templateData => {
   ${desc}
 
   ## Table of Contents
-  *[Installation](#installation)<br />
-  *[Usage](#usage)<br />
-  *[License](#license)<br />
-  *[Contributing](#contributing)<br />
-  *[Tests](#tests)<br />
-  *[Questions](#questions)
+  * [Installation](#installation)<br />
+  * [Usage](#usage)<br />
+  * [License](#license)<br />
+  * [Contributing](#contributing)<br />
+  * [Tests](#tests)<br />
+  * [Questions](#questions)
 
   ## Installation
   ${install}
