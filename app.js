@@ -7,12 +7,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'projectName',
-      message: 'Please enter your project name? (Required)',
+      message: 'Please enter your project name. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter your project name.');
           return false;
         }
       }
@@ -20,12 +20,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'desc',
-      message: 'What is your name? (Required)',
+      message: 'Please enter your project description. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter your project description.');
           return false;
         }
       }
@@ -33,12 +33,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'tableContents',
-      message: 'What is your name? (Required)',
+      message: 'Please enter first section of table of contents (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter first section of table of contents');
           return false;
         }
       }
@@ -46,12 +46,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'install',
-      message: 'What is your name? (Required)',
+      message: 'Please enter installation details. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter installation details.');
           return false;
         }
       }
@@ -59,12 +59,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'usage',
-      message: 'What is your name? (Required)',
+      message: 'What is the usage? (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('What is the usage?');
           return false;
         }
       }
@@ -72,12 +72,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'license',
-      message: 'What is your name? (Required)',
+      message: 'Please select your license. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please select your license.');
           return false;
         }
       }
@@ -85,12 +85,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'contrib',
-      message: 'What is your name? (Required)',
+      message: 'Please enter contributors. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter contributors.');
           return false;
         }
       }
@@ -98,25 +98,38 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'tests',
-      message: 'What is your name? (Required)',
+      message: 'Please enter testing results. (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('Please enter testing results.');
           return false;
         }
       }
     },
     {
       type: 'input',
-      name: 'questions',
-      message: 'What is your name? (Required)',
+      name: 'gitHub',
+      message: 'What is your GitHub username? (Required)',
       validate: nameInput => {
         if (nameInput) {
           return true;
         } else {
-          console.log('Please enter your name!');
+          console.log('What is your GitHub username?');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address? (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('What is your email address?');
           return false;
         }
       }
