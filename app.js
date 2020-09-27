@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const generatePage = require('./src/page-template');
 const { writeFile, copyFile } = require('./utils/generate-readme');
 
+// Prompt user inputs to create readme sections
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -60,7 +61,7 @@ const promptUser = () => {
       type: 'checkbox',
       name: 'license',
       message: 'Please select a license (Check all that apply)',
-      choices: ['Academic Free License v3.0', 'Do What The F*ck You Want To Public License', 'Educational Community License v2.0', 'MIT']
+      choices: ['Apache', 'IBM', 'MIT', 'Mozilla']
     },
     {
       type: 'input',
