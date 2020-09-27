@@ -12,7 +12,7 @@ This repo will generate a readme file. When the application is ran, the user wil
 
 ## Assignment Details
 
-!(https://user-images.githubusercontent.com/68674610/94377966-5ee70100-00da-11eb-9a66-ff5dcdb902ea.png)
+![](https://user-images.githubusercontent.com/68674610/94378088-5fcc6280-00db-11eb-80dc-689f74e5b002.png)
 
 ## Screen recording
 
