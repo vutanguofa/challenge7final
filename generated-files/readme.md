@@ -1,11 +1,15 @@
 
-  # 1
+  # test
   
   ## License
-  Apache, IBM, MIT, Mozilla
+  Apache
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description
-  2
+  1
 
   ## Table of Contents
   [Installation](#installation)<br />
@@ -16,19 +20,19 @@
   [Questions](#questions)
 
   ## Installation
-  3
+  2
 
   ## Usage
-  4
+  3
 
   ## Contributing
-  5
+  4
 
   ## Tests
-  6
+  5
 
   ## Questions
-  [Link to GitHub profile](https://github.com/7)<br />
-  [Email me](8)
+  [Link to GitHub profile](https://github.com/6)<br />
+  For additional questions, please email at: (7)
 
   
