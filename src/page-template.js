@@ -1,7 +1,7 @@
 // export function to generate entire page
 module.exports = templateData => {
   // destructure page data by section
-  const { projectName, desc, tableContents, install, usage, license, contrib, tests, gitHub, email } = templateData;
+  const { projectName, desc, install, usage, license, contrib, tests, gitHub, email } = templateData;
 
   return `
     ${projectName}
@@ -10,7 +10,12 @@ module.exports = templateData => {
     ${desc}
 
     ## Table of Contents
-    ${tableContents}
+    [Installation](#Installation)<br />
+    [Usage](#Usage)<br />
+    [License](#License)<br />
+    [Contributing](#Contributing)<br />
+    [Tests](#Tests)<br />
+    [Questions](#Questions)<br />
 
     ## Installation
     ${install}
@@ -19,7 +24,7 @@ module.exports = templateData => {
     ${usage}
 
     ## License
-    ${license}
+    ${license.join(', ')}
 
     ## Contributing
     ${contrib}

@@ -29,20 +29,7 @@ const promptUser = () => {
           return false;
         }
       }
-    },
-    {
-      type: 'input',
-      name: 'tableContents',
-      message: 'Please enter first section of table of contents (Required)',
-      validate: nameInput => {
-        if (nameInput) {
-          return true;
-        } else {
-          console.log('Please enter first section of table of contents');
-          return false;
-        }
-      }
-    },    
+    }, 
     {
       type: 'input',
       name: 'install',
@@ -70,17 +57,10 @@ const promptUser = () => {
       }
     },
     {
-      type: 'input',
+      type: 'checkbox',
       name: 'license',
-      message: 'Please select your license. (Required)',
-      validate: nameInput => {
-        if (nameInput) {
-          return true;
-        } else {
-          console.log('Please select your license.');
-          return false;
-        }
-      }
+      message: 'Please select a license (Check all that apply)',
+      choices: ['Academic Free License v3.0', 'Do What The F*ck You Want To Public License', 'Educational Community License v2.0', 'MIT']
     },
     {
       type: 'input',
