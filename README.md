@@ -6,13 +6,13 @@ This repo will generate a readme file. When the application is ran, the user wil
 
 ## Table of Contents
 
-* [Screenshot](#screenshot)<br />
+* [Assignment Details](#assignment-details)<br />
 * [Screen recording](#screen-recording)<br />
 * [Link to deployed application](#link-to-deployed-application)<br />
 
-## Screenshot
+## Assignment Details
 
-![challenge7final]()
+!(https://user-images.githubusercontent.com/68674610/94377966-5ee70100-00da-11eb-9a66-ff5dcdb902ea.png)
 
 ## Screen recording
 
