@@ -1,8 +1,11 @@
 
-  # vuster
+  # Project Name
+  
+  ## License
+  Apache, IBM, MIT, Mozilla
 
   ## Description
-  1
+  Project deccription details
 
   ## Table of Contents
   [Installation](#installation)
@@ -13,22 +16,19 @@
   [Questions](#questions)
 
   ## Installation
-  2
+  Installation details
 
   ## Usage
-  3
-
-  ## License
-  Academic Free License v3.0
+  Usage details
 
   ## Contributing
-  5
+  Vu Tang
 
   ## Tests
-  6
+  Test results
 
   ## Questions
-  [Link to GitHub profile](https://github.com/7)
-  [Email me](8)
+  [Link to GitHub profile](https://github.com/vutanguofa)
+  [Email me](vu.q.tang@gmail.com)
 
   
