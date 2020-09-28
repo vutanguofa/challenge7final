@@ -16,7 +16,7 @@ This repo will generate a readme file. When the application is ran, the user wil
 
 ## Screen recording
 
-
+[Link to walkthrough demo](https://youtu.be/zwbNSL4sJ1s)
 
 ## Link to deployed application
 

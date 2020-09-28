@@ -5,7 +5,7 @@
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
   ## Description
-  Homework for week 9
+  Week 9 node.js challenge
 
   ## Table of Contents
   * [Installation](#installation)<br />
@@ -19,15 +19,15 @@
   Install details
 
   ## Usage
-  To create a readme file
+  To create readme file
 
   ## Contributing
   Vu Tang
 
   ## Tests
-  Successful
+  Successful results
 
   ## Questions
   [Link to GitHub profile](https://github.com/vutanguofa)<br />
-  For additional questions, please email at: (vu.q.tang@gmail.com)
+  For additional questions, please email at: (vu.q.tang3@gmail.com)
   
