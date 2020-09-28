@@ -1,11 +1,11 @@
 
-  # Homework 7
+  # Readme Generator
   
   ## License
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
   ## Description
-  This repo generates a readme file
+  Homework for week 9
 
   ## Table of Contents
   * [Installation](#installation)<br />
@@ -16,16 +16,16 @@
   * [Questions](#questions)
 
   ## Installation
-  clone repo
+  Install details
 
   ## Usage
-  used to create a custom readme file
+  To create a readme file
 
   ## Contributing
   Vu Tang
 
   ## Tests
-  Successlful results
+  Successful
 
   ## Questions
   [Link to GitHub profile](https://github.com/vutanguofa)<br />
